@@ -69,7 +69,7 @@ def sozlama(update, context):
 
 def main():
     # updater ornatib olamiz
-    updater = Updater('1969507748:AAHMA0wub-Kch_NER4yroc9_fHAAyh9Y0tk', use_context=True)
+    updater = Updater('#', use_context=True)
 
     # Dispatcher eventlarni aniqlash uchun
     dispatcher = updater.dispatcher
