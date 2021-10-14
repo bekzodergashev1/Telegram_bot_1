@@ -69,7 +69,7 @@ def sozlama(update, context):
 
 def main():
     # updater ornatib olamiz
-    updater = Updater('#', use_context=True)
+    updater = Updater('API TOKEN', use_context=True)
 
     # Dispatcher eventlarni aniqlash uchun
     dispatcher = updater.dispatcher
